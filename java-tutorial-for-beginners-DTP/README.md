@@ -1,16 +1,5 @@
 # Java Tutorial For Beginners
 
-Welcome to this book on **"Learning Java In 150 Steps"**. 
-
-I am **Ranga Karanam**, and I have more than two decades of programming experience. 
-
-I love Programming. One of the aims I had when I started ```in28minutes``` was to make learning programming easy. Thanks for helping us provide amazing courses to 300,000 learners across the world.
-
-At **In28Minutes**, we ask ourselves one question every day: "How do we create awesome learning experiences?" 
-
-In this book, you will learn to write **object** **oriented** code with Java. You will be exposed to a lot of examples, exercises and tips. We will take up a lot of examples, and try and see how to write code for those in Java. 
-
-Help us improve this guide - **Fork, Pull Requests, Shares and Likes are recommended**!
 
 ## Table of Contents
 
