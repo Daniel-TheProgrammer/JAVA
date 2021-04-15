@@ -1,6 +1,5 @@
 # Java Tutorial For Beginners
 
-
 ## Table of Contents
 
 * [Chapter 01 - Introduction to Programming with Print-Multiplication-Table](#introduction-to-programming-with-print-multiplication-table)
