@@ -1,4 +1,4 @@
-//Predefint factorial for Number(num) == 5
+//Predefint Fabronaci for Number(num) == 5
 //DECLERE VARIABLE NOT WARS!! copyright©2021
 //By ROOT😉
 public class Fabronaci {
