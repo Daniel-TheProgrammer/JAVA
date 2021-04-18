@@ -9,7 +9,7 @@ public class Factorial {
             fact = fact * i;
 
         }
-        System.out.println("Fact:" + fact);
+        System.out.println("Fact: " + fact);
         for (j = 0; j <= n; j++) {
             fad += j - 1;
 
