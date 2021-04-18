@@ -1,6 +1,6 @@
-//Predefint Fabronaci for Number(num) == 5
-//DECLERE VARIABLE NOT WARS!! copyright©2021
-//By ROOT...😉
+// Predefint Fabronaci for Number(num) == 5
+// DECLERE VARIABLE NOT WARS!! copyright©2021
+// By ROOT😉
 public class Fabronaci {
 
     public static int num = 5, fad = 1, i;
