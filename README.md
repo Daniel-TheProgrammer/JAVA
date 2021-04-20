@@ -1,3 +1,3 @@
-# JAVA(from scratch)
+# JAVA
 
 
