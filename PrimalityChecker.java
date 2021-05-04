@@ -1,12 +1,14 @@
 
-//Program to return a number(base) raise to it's exponent
 //DECLERE VARIABLE NOT WARS!! copyright©2021
 //By ROOT...😉
 //-----------------------------------------------------
 import java.util.Scanner;
 
 public class PrimalityChecker {
+    private static Scanner scan;
+
     public static boolean isPrime(int n) {
+
         if (n <= 1)
             return false;
         for (int i = 2; i < n; i++)
@@ -17,7 +19,12 @@ public class PrimalityChecker {
 
     public static void main(String[] args) {
         scan = new Scanner(System.in);
-        if (isPrime(7)) {
+        scan = new Scanner(System.in);
+
+        System.out.print("Enter a number:");
+        num = scan.nextInt();
+
+        if (isPrime(num)) {
             System.out.println("\nTrue");
         } else {
             System.out.println("\nFalse");
