@@ -10,7 +10,7 @@ public class PrimalityChecker {
     private static Scanner scan;
 
     public static int isPrime(int n) {
- 
+
         if (n <= 1) {
             System.out.println("Number Is Non Prime");
         }
