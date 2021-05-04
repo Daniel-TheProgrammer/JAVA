@@ -4,21 +4,29 @@
 //-----------------------------------------------------
 import java.util.Scanner;
 
+import jdk.javadoc.internal.doclets.formats.html.SourceToHTMLConverter;
+
 public class PrimalityChecker {
     private static Scanner scan;
 
-    public static boolean isPrime(int n) {
+    public static int isPrime(int n) {
 
-        if (n <= 1)
-            return false;
-        for (int i = 2; i < n; i++)
-            if (n % i == 0)
-                return false;
-        return true;
+        if (n <= 1){
+            System.out.println("Number Is Non Prime");
+        }
+
+        else if(n>=2){
+            for (int i = 2; i < n; i++){
+                if (n % i == 0)
+                System.out.println("Number Is Non Prime")
+        }
+        }
+        else{
+            System.out.println("Number Is Non Prime")
+        }
     }
 
     public static void main(String[] args) {
-        scan = new Scanner(System.in);
         scan = new Scanner(System.in);
 
         System.out.print("Enter a number:");
