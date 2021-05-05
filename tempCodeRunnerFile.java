@@ -1,20 +1,38 @@
-//Predefint factorial for Number(num) == 5
+
 //DECLERE VARIABLE NOT WARS!! copyright©2021
-//By ROOT😉
-public class Factorial {
-    public static int num = 5, i, fact = 1, n = 5, fad = 1, j;;
+//By ROOT...😉
+//-----------------------------------------------------
+import java.util.Scanner;
 
-    public static void main(String[] args) {
-        for (i = 1; i <= num; i++) {
-            fact = fact * i;
+//import jdk.javadoc.internal.doclets.formats.html.SourceToHTMLConverter;
 
+public class PrimalityChecker {
+    private static Scanner scan;
+
+    public static int isPrime(int n) {
+
+        if (n <= 1) {
+            System.out.println("Number Is Non Prime");
         }
-        System.out.println("Fact:" + fact);
-        for (j = 0; j <= n; j++) {
-            fad += j - 1;
 
+        else if (n >= 2) {
+            for (int i = 2; i < n; i++) {
+                if (n % i == 0)
+                    System.out.println("Number Is Non Prime");
+            }
+        } else {
+            System.out.println("Number Is Non Prime");
         }
-        System.out.println("Fabronaci of " + n + ": " + fad);
     }
+
+}
+
+public static void main(String[] args) {
+        scan = new Scanner(System.in);
+
+        System.out.print("Enter a number:");
+        num = scan.nextInt();
+
+        if (isPrime(num))
 
 }

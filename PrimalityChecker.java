@@ -4,7 +4,7 @@
 //-----------------------------------------------------
 import java.util.Scanner;
 
-import jdk.javadoc.internal.doclets.formats.html.SourceToHTMLConverter;
+//import jdk.javadoc.internal.doclets.formats.html.SourceToHTMLConverter;
 
 public class PrimalityChecker {
     private static Scanner scan;
@@ -25,23 +25,13 @@ public class PrimalityChecker {
         }
     }
 
-public static void main(String[] args) {
-        scan = new Scanner(System.in);
+    public static void main(String[] args) {
+            scan = new Scanner(System.in);
 
-        System.out.print("Enter a number:");
-        num = scan.nextInt();
+            System.out.print("Enter a number:");
+            num = scan.nextInt();
 
-        if (isPrime(num)) /*{
-            System.out.println("\nTrue");
-        } else {
-            System.out.println("\nFalse");
-        }
-        if (isPrime(18)) {
-            System.out.println("\nTrue");
-        } else {
-            System.out.println("\nFalse");
-        }
+            if (isPrime(num))
+
     }
-    */
 }
-};
