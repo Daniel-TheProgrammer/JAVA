@@ -1,5 +1,5 @@
 
-//DECLARE VARIABLE NOT WARS!! copyright©2021
+//DECLERE VARIABLE NOT WARS!! copyright©2021
 //By ROOT...😉
 //-----------------------------------------------------
 import java.util.Scanner;

@@ -26,13 +26,13 @@ public class PrimalityChecker {
     }
 
 }
-
+int num;
 public static void main(String[] args) {
         scan = new Scanner(System.in);
 
         System.out.print("Enter a number:");
         num = scan.nextInt();
 
-        if (isPrime(num))
+       isPrime(num)
 
 }
