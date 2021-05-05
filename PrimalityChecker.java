@@ -12,7 +12,7 @@ public class PrimalityChecker {
     public static int isPrime(int n) {
 
         if (n <= 1) {
-            System.out.println("Number Is Non Prime");
+            System.out.println("Any Number Less Than Or Equal To 1 Is Non Prime");
         }
 
         else if (n >= 2) {
