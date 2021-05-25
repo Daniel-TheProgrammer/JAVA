@@ -1,4 +1,3 @@
-
 //Simple Program to Display The Current Date and Time
 //DECLERE VARIABLE NOT WARS!! copyright©2021
 //By ROOT...😉
