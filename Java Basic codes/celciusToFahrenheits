@@ -1,0 +1,17 @@
+//Done by Neba Emmanuel
+//Look me up on https://github.com/Neba-Emmanuel/
+import java.util.Scanner;
+
+public class celciusToFahrenheit {
+    public static void main() {
+        float c,f;
+
+        Scanner i = new Scanner(System.in);
+
+        System.out.println("Enter temperature in centigrade: ");
+        c = i.nextFloat();
+        f = (float)((1.8 * c) + 32.0);
+
+        System.out.println("Temperature in Fahrenheit = "+f);
+    }
+}
